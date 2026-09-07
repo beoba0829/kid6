@@ -5,13 +5,13 @@ import { trialLink } from '@/lib/navigation';
 const HERO_PHOTO =
   'https://res.cloudinary.com/wsaz946u/image/upload/v1788166775/HeroBanner-1.jpg';
 const BG_TEXTURE =
-  'https://res.cloudinary.com/wsaz946u/image/upload/v1788166535/kindy_bg_form_top.webp';
+  'https://res.cloudinary.com/wsaz946u/image/upload/v1788166532/kindy_bg_trust.webp';
 const TIGER =
   'https://res.cloudinary.com/wsaz946u/image/upload/v1788166533/yeya-tiger.svg';
 
 export default function FinalCTA() {
   return (
-    <section className="relative overflow-hidden bg-blush-200 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-cream-200 py-20 lg:py-28">
       {/* Subtle textured backdrop */}
       <div aria-hidden className="absolute inset-0">
         <img
@@ -19,13 +19,13 @@ export default function FinalCTA() {
           alt=""
           className="h-full w-full object-cover opacity-[0.12]"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-blush-200/90 via-blush-200/80 to-blush-200/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-cream-200/90 via-cream-200/80 to-cream-200/90" />
       </div>
 
       {/* Soft decorative blobs */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-24 top-10 h-[320px] w-[320px] rounded-[54%_46%_37%_63%_/_48%_55%_45%_52%] bg-blush-300/40 blur-2xl"
+        className="pointer-events-none absolute -left-24 top-10 h-[320px] w-[320px] rounded-[54%_46%_37%_63%_/_48%_55%_45%_52%] bg-blush-300/30 blur-2xl"
       />
       <div
         aria-hidden

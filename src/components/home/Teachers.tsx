@@ -179,7 +179,7 @@ export default function Teachers() {
   return (
     <section
       id="doi-ngu"
-      className="relative overflow-hidden bg-cream-100 py-20 lg:py-28"
+      className="relative overflow-hidden bg-blush-300 py-20 lg:py-28"
     >
       {/* Hide native scrollbar cross-browser */}
       <style>{`
@@ -194,7 +194,7 @@ export default function Teachers() {
           alt=""
           className="h-full w-full object-cover opacity-[0.14]"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-cream-100/90 via-cream-100/70 to-cream-100/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-blush-300/90 via-blush-300/70 to-blush-300/90" />
       </div>
 
       <div className="container-page relative">
@@ -237,11 +237,11 @@ export default function Teachers() {
           {/* Edge fade gradients — desktop only */}
           <div
             aria-hidden
-            className="pointer-events-none absolute left-0 top-0 z-10 hidden h-full w-16 bg-gradient-to-r from-cream-100 via-cream-100/80 to-transparent lg:block"
+            className="pointer-events-none absolute left-0 top-0 z-10 hidden h-full w-16 bg-gradient-to-r from-blush-300 via-blush-300/80 to-transparent lg:block"
           />
           <div
             aria-hidden
-            className="pointer-events-none absolute right-0 top-0 z-10 hidden h-full w-16 bg-gradient-to-l from-cream-100 via-cream-100/80 to-transparent lg:block"
+            className="pointer-events-none absolute right-0 top-0 z-10 hidden h-full w-16 bg-gradient-to-l from-blush-300 via-blush-300/80 to-transparent lg:block"
           />
 
           {/* Arrow buttons — desktop, vertically centered on the edges */}
@@ -251,7 +251,7 @@ export default function Teachers() {
             disabled={atStart}
             aria-label="Giáo viên trước"
             className={[
-              'absolute left-2 top-1/2 z-30 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-cream-100 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:shadow-lift lg:flex',
+              'absolute left-2 top-1/2 z-30 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-blush-300 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:shadow-lift lg:flex',
               atStart ? 'pointer-events-none opacity-30' : 'opacity-100',
             ].join(' ')}
           >
@@ -263,7 +263,7 @@ export default function Teachers() {
             disabled={atEnd}
             aria-label="Giáo viên tiếp theo"
             className={[
-              'absolute right-2 top-1/2 z-30 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-cream-100 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:shadow-lift lg:flex',
+              'absolute right-2 top-1/2 z-30 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-blush-300 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:shadow-lift lg:flex',
               atEnd ? 'pointer-events-none opacity-30' : 'opacity-100',
             ].join(' ')}
           >
@@ -295,7 +295,7 @@ export default function Teachers() {
               disabled={atStart}
               aria-label="Giáo viên trước"
               className={[
-                'flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth',
+                'flex h-11 w-11 items-center justify-center rounded-full bg-blush-300 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth',
                 atStart ? 'pointer-events-none opacity-30' : 'opacity-100',
               ].join(' ')}
             >
@@ -307,7 +307,7 @@ export default function Teachers() {
               disabled={atEnd}
               aria-label="Giáo viên tiếp theo"
               className={[
-                'flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth',
+                'flex h-11 w-11 items-center justify-center rounded-full bg-blush-300 shadow-card ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth',
                 atEnd ? 'pointer-events-none opacity-30' : 'opacity-100',
               ].join(' ')}
             >
@@ -330,6 +330,19 @@ export default function Teachers() {
           </Link>
         </div>
       </div>
+
+      {/* Soft wave divider into Results */}
+      <svg
+        aria-hidden
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        className="block h-12 w-full text-cream-100 sm:h-16"
+      >
+        <path
+          d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"
+          fill="currentColor"
+        />
+      </svg>
     </section>
   );
 }

@@ -58,7 +58,7 @@ const CHARACTER =
 
 export default function LearningJourney() {
   return (
-    <section className="relative overflow-hidden bg-cream-100 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-sky-200 py-20 lg:py-28">
       <div
         aria-hidden
         className="pointer-events-none absolute -left-24 top-16 h-[320px] w-[320px] rounded-[54%_46%_37%_63%_/_48%_55%_45%_52%] bg-sky-200/30 blur-2xl"
@@ -191,7 +191,7 @@ export default function LearningJourney() {
         aria-hidden
         viewBox="0 0 1440 80"
         preserveAspectRatio="none"
-        className="mt-16 block h-12 w-full text-cream-100 sm:h-16"
+        className="mt-16 block h-12 w-full text-blush-300 sm:h-16"
       >
         <path
           d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"

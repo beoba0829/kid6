@@ -75,7 +75,7 @@ const CROW =
 
 export default function WhyILE() {
   return (
-    <section className="relative overflow-hidden bg-cream-100 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-sky-300 py-20 lg:py-28">
       {/* Soft decorative blobs */}
       <div
         aria-hidden
@@ -90,7 +90,7 @@ export default function WhyILE() {
         {/* Section header */}
         <div className="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <span className="inline-flex items-center gap-2 rounded-full bg-blush-200/70 px-4 py-1.5 font-body text-sm font-semibold text-blush-600">
+            <span className="inline-flex items-center gap-2 rounded-full bg-ink-900/10 px-4 py-1.5 font-body text-sm font-semibold text-ink-900">
               Vì sao bố mẹ chọn ILE?
             </span>
             <h2 className="mt-5 font-heading text-3xl font-extrabold leading-[1.15] tracking-tight text-ink-900 sm:text-4xl lg:text-[2.75rem]">
@@ -290,6 +290,19 @@ export default function WhyILE() {
           </div>
         </div>
       </div>
+
+      {/* Soft wave divider into Programs */}
+      <svg
+        aria-hidden
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        className="block h-12 w-full text-cream-100 sm:h-16"
+      >
+        <path
+          d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"
+          fill="currentColor"
+        />
+      </svg>
     </section>
   );
 }

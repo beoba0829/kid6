@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <section
       id="lien-he"
-      className="relative overflow-hidden bg-cream-100 py-20 lg:py-28"
+      className="relative overflow-hidden bg-sky-200 py-20 lg:py-28"
     >
       {/* Soft decorative blobs */}
       <div
@@ -31,7 +31,7 @@ export default function Contact() {
         {/* Section header */}
         <div className="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <span className="inline-flex items-center gap-2 rounded-full bg-sky-200/70 px-4 py-1.5 font-body text-sm font-semibold text-sky-700">
+            <span className="inline-flex items-center gap-2 rounded-full bg-ink-900/10 px-4 py-1.5 font-body text-sm font-semibold text-ink-900">
               <Sparkles className="h-4 w-4" strokeWidth={2.25} />
               Ghé thăm ILE
             </span>
@@ -144,12 +144,20 @@ export default function Contact() {
         </div>
       </div>
 
+      {/* Transitional hill illustration leading into FinalCTA */}
+      <img
+        src="https://res.cloudinary.com/wsaz946u/image/upload/v1788166535/kindy_bg_testimonial.webp"
+        alt=""
+        aria-hidden
+        className="pointer-events-none absolute bottom-0 left-0 z-0 w-full object-cover object-bottom"
+      />
+
       {/* Soft wave divider */}
       <svg
         aria-hidden
         viewBox="0 0 1440 80"
         preserveAspectRatio="none"
-        className="mt-16 block h-12 w-full text-cream-100 sm:h-16"
+        className="relative mt-16 block h-12 w-full text-cream-200 sm:h-16"
       >
         <path
           d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"

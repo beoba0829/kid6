@@ -286,18 +286,19 @@ export default function Hero() {
 
       </div>
 
-      {/* Soft wave divider into the page */}
-      <svg
+      {/* Layered cloud transition into WhyILE */}
+      <img
+        src="https://res.cloudinary.com/wsaz946u/image/upload/v1788772387/kindy_kindy-section3-clouds-blue.webp"
+        alt=""
         aria-hidden
-        viewBox="0 0 1440 80"
-        preserveAspectRatio="none"
-        className="block h-12 w-full text-cream-100 sm:h-16"
-      >
-        <path
-          d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"
-          fill="currentColor"
-        />
-      </svg>
+        className="pointer-events-none absolute bottom-0 left-0 z-0 w-full object-cover object-bottom"
+      />
+      <img
+        src="https://res.cloudinary.com/wsaz946u/image/upload/v1788772387/kindy_kindy-section3-clouds-white.webp"
+        alt=""
+        aria-hidden
+        className="pointer-events-none absolute bottom-0 left-0 z-0 w-full translate-y-2 object-cover object-bottom"
+      />
     </section>
   );
 }

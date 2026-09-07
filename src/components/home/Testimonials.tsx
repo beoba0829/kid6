@@ -97,7 +97,7 @@ const BG_IMAGE =
 
 export default function Testimonials() {
   return (
-    <section className="relative overflow-hidden bg-cream-100 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-blush-300 py-20 lg:py-28">
       {/* Editorial background — soft, dimmed with cream overlay */}
       <div aria-hidden className="absolute inset-0">
         <img
@@ -105,7 +105,7 @@ export default function Testimonials() {
           alt=""
           className="h-full w-full object-cover opacity-[0.14]"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-cream-100/90 via-cream-100/75 to-cream-100/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-blush-300/90 via-blush-300/75 to-blush-300/90" />
       </div>
 
       {/* Soft decorative blobs */}
