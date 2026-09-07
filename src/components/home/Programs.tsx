@@ -125,12 +125,17 @@ export default function Programs() {
         </div>
       </div>
 
-      <img
-        src="https://res.cloudinary.com/wsaz946u/image/upload/v1788166535/kindy_bg_form_top.webp"
-        alt=""
+      <svg
         aria-hidden
-        className="pointer-events-none absolute bottom-0 left-0 z-0 w-full object-cover object-bottom"
-      />
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        className="block h-12 w-full text-sky-200 sm:h-16"
+      >
+        <path
+          d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"
+          fill="currentColor"
+        />
+      </svg>
     </section>
   );
 }
