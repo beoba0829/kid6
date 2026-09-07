@@ -23,7 +23,7 @@ export default function Hero() {
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute bottom-0 right-1/4 h-[260px] w-[260px] rounded-[58%_42%_46%_54%_/_52%_55%_45%_48%] bg-cream-200/60 blur-2xl"
+        className="pointer-events-none absolute bottom-8 right-1/4 h-[260px] w-[260px] rounded-[58%_42%_46%_54%_/_52%_55%_45%_48%] bg-cream-200/50 blur-2xl"
       />
 
       <div className="container-page relative">
@@ -291,7 +291,7 @@ export default function Hero() {
         aria-hidden
         viewBox="0 0 1440 80"
         preserveAspectRatio="none"
-        className="block h-12 w-full text-sky-300 sm:h-16"
+        className="absolute bottom-0 left-0 block h-12 w-full text-sky-300 sm:h-16"
       >
         <path
           d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"

@@ -24,7 +24,7 @@ export default function Contact() {
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-16 bottom-20 h-[280px] w-[280px] rounded-[46%_54%_58%_42%_/_54%_46%_54%_46%] bg-blush-200/25 blur-2xl"
+        className="pointer-events-none absolute -right-16 bottom-32 h-[280px] w-[280px] rounded-[46%_54%_58%_42%_/_54%_46%_54%_46%] bg-blush-200/20 blur-2xl"
       />
 
       <div className="container-page relative">
@@ -149,7 +149,7 @@ export default function Contact() {
         aria-hidden
         viewBox="0 0 1440 80"
         preserveAspectRatio="none"
-        className="mt-16 block h-12 w-full text-cream-200 sm:h-16"
+        className="absolute bottom-0 left-0 block h-12 w-full text-cream-200 sm:h-16"
       >
         <path
           d="M0 40 C 240 80, 480 0, 720 30 C 960 60, 1200 20, 1440 45 L 1440 80 L 0 80 Z"
